@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #444444;
+}
+
+#number {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 130px;
+}
+
+#countdown {
+    font-size: 180px;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+}
+
+#stop {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+
+}
+
+.btn-container {
+    font-size: 15px;
+    padding: 7px 25px;
+    margin: 0px 10px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+
+#start {
+    background-color: blueviolet;
+}
+
+#stop {
+    background-color: grey;
+
+}
